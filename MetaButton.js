@@ -31,8 +31,9 @@ function MetaButton (props) {
             
         }
       
-
-    console.log("MetaButton props", props.pCompProps)
+// Uncomment the line below if you ever need to see MetaButton's props upon rendering.
+//    console.log("MetaButton props", props.pCompProps)
+   
     return (
             <button onClick={() => showPropsOrState("state")}>Console.log props/state for {props.pCompName}</button>
            
