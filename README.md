@@ -1,7 +1,11 @@
 # metabutton
 A simple React component that will `console.log` the props/state of its parent component. Use this to selectively console.log a component's state or props versus having them all print to the page at once. This can also be used as an alternative to `debugger` in some scenarios.
 
+## Overview
+
 Implement MetaButton in any components you wish to know the props or state of with the simple click of a button. MetaButton can be used to print either props, state, or both, depending on the props you give it. It also has built-in functionality to detect when certain props are missing (described below). 
+
+## Props
 
 The following props MetaButton can receive are:
 
@@ -11,7 +15,7 @@ The following props MetaButton can receive are:
 
 `pCompState` : An <b>Object.</b> The state of the component you want to analyze. It can remain undefined if `pCompProps` is given instead. In the event both pCompState and pCompProps are given, the component's props will always be printed first to the console.
 
-#Errors
+## Errors
 
 Errors are given in the form of alerts, and will return nothing to the console. They will fire in one of the following scenarios:
 
