@@ -34,7 +34,7 @@ function MetaButton (props) {
 
     console.log("MetaButton props", props.pCompProps)
     return (
-            <button onClick={() => showPropsOrState("state")}>Console.log props FUCKIN HELLO</button>
+            <button onClick={() => showPropsOrState("state")}>Console.log props/state for {props.pCompName}</button>
            
         
     )
